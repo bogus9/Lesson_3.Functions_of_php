@@ -124,4 +124,5 @@
     // Выводим элемент массива $selected на экран
     echo 'Время из массива $selected: '.date('d-m-Y H:i:s', $selected[0]).'<br />';
     
+    
 ?>
