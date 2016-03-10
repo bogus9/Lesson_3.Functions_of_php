@@ -78,6 +78,7 @@
     // Сортировка дат в возрастающем порядке
     array_multisort($Dates, SORT_ASC);
     
+    // Проверяем результат
     var_dump($Dates);
     
     
