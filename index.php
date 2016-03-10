@@ -1,7 +1,9 @@
 <?php
 
-    // команда для корректного отображения кодировки текста в браузере
-    header("Content-Type: text/html; charset=windows-1251");
+//    если поставить Debian с настройками на puphpet в Locale/Timezone в Default Locale - ru_RU.UTF-8, 
+//    то я так понял русский текст станет отображаться в браузере корректно
+//    в иных случаях - команда для корректного отображения кодировки текста в браузере
+//    header("Content-Type: text/html; charset=windows-1251");
     
     error_reporting(E_ERROR|E_WARNING|E_PARSE|E_NOTICE);
     ini_set('display_errors', 1);
